@@ -1,7 +1,60 @@
 body {
-  text-align: center;
+  background-color: ;
+  
 
 }
+
+h1 {
+  text-align: center;
+}
+
+h2{
+  margin: 0;
+}
+
+select {
+display: block;
+width: 100%;
+border-radius: 5px;
+padding: 10px;
+text-align: center;
+font-size: 17px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: rgb(235, 245, 255);
+  padding: 30px;
+  border-radius: 15px;
+  
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.8;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+  
+}
+
+
+
+
 
 footer {
   text-align: center;
