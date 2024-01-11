@@ -1,11 +1,19 @@
 body {
-  background-color: ;
+  font-family: Arial, Helvetica, sans-serif;
   
-
 }
 
 h1 {
   text-align: center;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
 }
 
 h2{
