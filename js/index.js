@@ -18,6 +18,14 @@ let parisCurrentTime = moment().tz('Europe/Paris')
 parisDateElement.innerHTML = parisCurrentTime.format('dddd, Do MMMM YYYY')
 parisTimeElement.innerHTML = parisCurrentTime.format('HH:mm:ss')
 
+//Lagos
+let lagosElement = document.querySelector('#lagos')
+let lagosDateElement = lagosElement.querySelector('.date')
+let lagosTimeElement = lagosElement.querySelector('.time')
+let lagosCurrentTime = moment().tz('Africa/Nigeria')
+
+lagosDateElement.innerHTML = lagosCurrentTime.format('dddd, Do MMMM YYYY')
+lagosTimeElement.innerHTML = lagosCurrentTime.format('HH:mm:ss')
 }
 
 function updateCity(event){
